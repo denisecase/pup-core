@@ -89,7 +89,7 @@ jobs:
           echo "Artifact version matches tag."
 
       - name: B5) Sync all dependencies with frozen versions (in uv.lock)
-        run: uv sync --extra dev --extra docs --frozen
+        run: uv sync --frozen
 
       - name: B6) Validate built artifacts
         run: uvx twine check dist/*

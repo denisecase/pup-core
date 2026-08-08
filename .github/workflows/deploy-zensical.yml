@@ -64,9 +64,7 @@ jobs:
         run: uv python install 3.15
 
       - name: A5) Install all dependencies with frozen versions (in uv.lock)
-        run: uv sync --extra dev --extra docs --frozen
-        # WHY: Docs extras required for Zensical build; dev extras for consistency.
-        # OBS: Deployment validates the committed lock file; it must not upgrade dependencies.
+        run: uv sync --frozen
 
       - name: A6) Show tool versions
         run: |
