@@ -1,1 +1,1 @@
-"""pup-core package."""
+"""Inspect package."""

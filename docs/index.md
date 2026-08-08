@@ -38,3 +38,7 @@ understanding repository characteristics such as:
 - project metadata
 - Python versions
 - repository-relative paths
+
+## See Also
+
+- [API](./api.md)

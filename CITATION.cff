@@ -11,7 +11,7 @@ type: software
 
 title: "pup-core"
 # Set version and date-released to match latest git tag or release.
-version: "0.0.3"
+version: "0.0.4"
 date-released: "2026-08-08"
 
 authors:
@@ -26,8 +26,8 @@ url: "https://github.com/denisecase/pup-core"
 license: MIT
 
 abstract: >
-  Shared core library for opinionated professional Python project tools,
-  providing repository inspection, project metadata, package detection,
+  Shared core library for opinionated professional Python project updater
+  and tools, providing repository inspection, project metadata, package detection,
   path safety, normalization, and reusable project-management primitives.
 
 keywords:

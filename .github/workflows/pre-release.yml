@@ -1,7 +1,7 @@
 # ============================================================
 # .github/workflows/pre-release.yml (ALL-PY-SRC-PYPI-REPOS AFTER dep groups in pyproject.toml)
 # ============================================================
-# Updated: 2026-08-06
+# Updated: 2026-08-08
 #
 # WHY: Validate tagged Python package artifacts before release.
 # REQ: Reusable by PyPI package repositories.

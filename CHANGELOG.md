@@ -13,6 +13,19 @@ and this project adheres to **[Semantic Versioning](https://semver.org/spec/v2.0
 
 ---
 
+## 0.0.4 - 2026-08-08
+
+### Added
+
+- Added `paths/` utilities for repository-relative path normalization and safe path resolution.
+- Added `python/` utilities for Python package-name and version normalization.
+- Added `sections/` support for detecting, planning, adding, replacing, and deleting file sections.
+- Added shared typed records for Git, package, project metadata, and managed-section operations.
+- Added repository inspection support for Git metadata, Python packages, and `pyproject.toml`.
+- Added tests for errors, types, repo inspection, path handling, Python normalization, and managed sections.
+
+---
+
 ## 0.0.3 - 2026-08-08
 
 ### Added
@@ -93,7 +106,8 @@ git push origin :refs/tags/vX.Z.Y
 
 ## Links
 
-[Unreleased]: https://github.com/denisecase/pup-core/compare/v0.0.3...HEAD
+[Unreleased]: https://github.com/denisecase/pup-core/compare/v0.0.4...HEAD
+[0.0.4]: https://github.com/denisecase/pup-core/releases/tag/v0.0.4
 [0.0.3]: https://github.com/denisecase/pup-core/releases/tag/v0.0.3
 
 <!-- markdownlint-enable MD024 -->
