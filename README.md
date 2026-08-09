@@ -13,6 +13,8 @@
 [![Links](https://github.com/denisecase/pup-core/actions/workflows/links.yml/badge.svg?branch=main)](https://github.com/denisecase/pup-core/actions/workflows/links.yml)
 [![Dependabot](https://img.shields.io/badge/Dependabot-enabled-brightgreen.svg)](https://github.com/denisecase/pup-core/security)
 
+<img src="docs/images/pup.png" alt="pup-clean logo" width="110">
+
 > Shared core library for opinionated professional Python project tools.
 
 ## Purpose
