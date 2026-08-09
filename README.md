@@ -13,7 +13,10 @@
 [![Links](https://github.com/denisecase/pup-core/actions/workflows/links.yml/badge.svg?branch=main)](https://github.com/denisecase/pup-core/actions/workflows/links.yml)
 [![Dependabot](https://img.shields.io/badge/Dependabot-enabled-brightgreen.svg)](https://github.com/denisecase/pup-core/security)
 
-<img src="docs/images/pup.png" alt="pup-clean logo" width="110">
+<img
+src="https://raw.githubusercontent.com/denisecase/pup-core/main/docs/images/pup.png"
+alt="pup logo"
+width="110">
 
 > Shared core library for opinionated professional Python project tools.
 
@@ -95,6 +98,10 @@ git push -u origin main
 ```
 
 </details>
+
+## Documentation
+
+- [Documentation](https://denisecase.github.io/pup-core/)
 
 ## Annotations
 
