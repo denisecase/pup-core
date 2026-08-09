@@ -1,4 +1,4 @@
-# pup-core: Professional Python Project Updater: Core
+# pup-core: Professional Python Project Tools: Core Library
 
 [![PyPI](https://img.shields.io/pypi/v/pup-core?logo=pypi&label=pypi)](https://pypi.org/project/pup-core/)
 [![Docs Site](https://img.shields.io/badge/docs-site-blue?logo=github)](https://denisecase.github.io/pup-core/)

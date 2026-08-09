@@ -1,6 +1,6 @@
 # pup-core
 
-<img src="images/pup.png" alt="pup-clean logo" width="110">
+<img src="images/pup.png" alt="pup logo" width="110">
 
 `pup-core` provides shared repository inspection, typing, path-safety,
 normalization, and planning primitives for the
