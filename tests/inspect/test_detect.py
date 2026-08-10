@@ -59,8 +59,8 @@ def test_detect_repository(tmp_path: Path, monkeypatch) -> None:
     (package / "__init__.py").write_text("", encoding="utf-8")
 
     git_info = GitInfo(
-        origin_url="https://github.com/denisecase/example.git",
-        github_owner="denisecase",
+        origin_url="https://github.com/pup-pack/example.git",
+        github_owner="pup-pack",
         github_repo="example",
         tracked_files=frozenset(),
         untracked_files=frozenset(),
@@ -77,8 +77,8 @@ def test_detect_repository(tmp_path: Path, monkeypatch) -> None:
     context = detect_module.detect_repository(tmp_path)
 
     assert context.root == tmp_path.resolve()
-    assert context.github_handle == "denisecase"
+    assert context.github_handle == "pup-pack"
     assert context.repo_name == "example"
-    assert context.repo_url == "https://github.com/denisecase/example"
-    assert context.site_url == "https://denisecase.github.io/example/"
+    assert context.repo_url == "https://github.com/pup-pack/example"
+    assert context.site_url == "https://pup-pack.github.io/example/"
     assert context.src_package == "example"

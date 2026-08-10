@@ -16,10 +16,10 @@ def test_repository_context() -> None:
     """RepositoryContext stores detected repository facts."""
     context = RepositoryContext(
         root=Path("repo"),
-        github_handle="denisecase",
+        github_handle="pup-pack",
         repo_name="example",
-        repo_url="https://github.com/denisecase/example",
-        site_url="https://denisecase.github.io/example/",
+        repo_url="https://github.com/pup-pack/example",
+        site_url="https://pup-pack.github.io/example/",
         src_package="example",
         files=frozenset({"pyproject.toml", "src/example/__init__.py"}),
     )
@@ -32,8 +32,8 @@ def test_repository_context() -> None:
 def test_git_info() -> None:
     """GitInfo stores detected Git facts."""
     info = GitInfo(
-        origin_url="https://github.com/denisecase/example.git",
-        github_owner="denisecase",
+        origin_url="https://github.com/pup-pack/example.git",
+        github_owner="pup-pack",
         github_repo="example",
         tracked_files=frozenset({"README.md"}),
         untracked_files=frozenset({"notes.txt"}),
@@ -41,7 +41,7 @@ def test_git_info() -> None:
         dirty=True,
     )
 
-    assert info.github_owner == "denisecase"
+    assert info.github_owner == "pup-pack"
     assert info.github_repo == "example"
     assert info.dirty is True
 

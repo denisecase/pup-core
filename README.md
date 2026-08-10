@@ -1,20 +1,20 @@
 # pup-core: Professional Python Project Tools: Core Library
 
 [![PyPI](https://img.shields.io/pypi/v/pup-core?logo=pypi&label=pypi)](https://pypi.org/project/pup-core/)
-[![Docs Site](https://img.shields.io/badge/docs-site-blue?logo=github)](https://denisecase.github.io/pup-core/)
-[![Repo](https://img.shields.io/badge/repo-GitHub-black?logo=github)](https://github.com/denisecase/pup-core)
+[![Docs Site](https://img.shields.io/badge/docs-site-blue?logo=github)](https://pup-pack.github.io/pup-core/)
+[![Repo](https://img.shields.io/badge/repo-GitHub-black?logo=github)](https://github.com/pup-pack/pup-core)
 [![Python 3.15](https://img.shields.io/badge/python-3.15%2B-blue?logo=python)](./pyproject.toml)
 [![License](https://img.shields.io/badge/license-MIT-yellow.svg)](./LICENSE)
 
-[![CI](https://github.com/denisecase/pup-core/actions/workflows/ci-python-zensical.yml/badge.svg?branch=main)](https://github.com/denisecase/pup-core/actions/workflows/ci-python-zensical.yml)
-[![Docs-Deploy](https://github.com/denisecase/pup-core/actions/workflows/deploy-zensical.yml/badge.svg?branch=main)](https://github.com/denisecase/pup-core/actions/workflows/deploy-zensical.yml)
-[![Pre-Release](https://github.com/denisecase/pup-core/actions/workflows/pre-release.yml/badge.svg?branch=main)](https://github.com/denisecase/pup-core/actions/workflows/pre-release.yml)
-[![Release](https://github.com/denisecase/pup-core/actions/workflows/release-pypi.yml/badge.svg)](https://github.com/denisecase/pup-core/actions/workflows/release-pypi.yml)
-[![Links](https://github.com/denisecase/pup-core/actions/workflows/links.yml/badge.svg?branch=main)](https://github.com/denisecase/pup-core/actions/workflows/links.yml)
-[![Dependabot](https://img.shields.io/badge/Dependabot-enabled-brightgreen.svg)](https://github.com/denisecase/pup-core/security)
+[![CI](https://github.com/pup-pack/pup-core/actions/workflows/ci-python-zensical.yml/badge.svg?branch=main)](https://github.com/pup-pack/pup-core/actions/workflows/ci-python-zensical.yml)
+[![Docs-Deploy](https://github.com/pup-pack/pup-core/actions/workflows/deploy-zensical.yml/badge.svg?branch=main)](https://github.com/pup-pack/pup-core/actions/workflows/deploy-zensical.yml)
+[![Pre-Release](https://github.com/pup-pack/pup-core/actions/workflows/pre-release.yml/badge.svg?branch=main)](https://github.com/pup-pack/pup-core/actions/workflows/pre-release.yml)
+[![Release](https://github.com/pup-pack/pup-core/actions/workflows/release-pypi.yml/badge.svg)](https://github.com/pup-pack/pup-core/actions/workflows/release-pypi.yml)
+[![Links](https://github.com/pup-pack/pup-core/actions/workflows/links.yml/badge.svg?branch=main)](https://github.com/pup-pack/pup-core/actions/workflows/links.yml)
+[![Dependabot](https://img.shields.io/badge/Dependabot-enabled-brightgreen.svg)](https://github.com/pup-pack/pup-core/security)
 
 <img
-src="https://raw.githubusercontent.com/denisecase/pup-core/main/docs/images/pup.png"
+src="https://raw.githubusercontent.com/pup-pack/pup-core/main/docs/images/pup.png"
 alt="pup logo"
 width="110">
 
@@ -45,14 +45,14 @@ The user-facing tools determine what should happen:
 
 ## Professional Python Project Tools
 
-- [pup-up](https://github.com/denisecase/pup-up)
-- [pup-check](https://github.com/denisecase/pup-check)
-- [pup-tidy](https://github.com/denisecase/pup-tidy)
-- [templates](https://github.com/denisecase/templates)
+- [pup-up](https://github.com/pup-pack/pup-up)
+- [pup-check](https://github.com/pup-pack/pup-check)
+- [pup-tidy](https://github.com/pup-pack/pup-tidy)
+- [templates](https://github.com/pup-pack/templates)
 
 ## Template Source
 
-- [templates](https://github.com/denisecase/templates)
+- [templates](https://github.com/pup-pack/templates)
 
 ## Developer Command Reference
 
@@ -64,7 +64,7 @@ The user-facing tools determine what should happen:
 Open a machine terminal where you want the project:
 
 ```shell
-git clone https://github.com/denisecase/pup-core
+git clone https://github.com/pup-pack/pup-core
 
 cd pup-core
 code .
@@ -101,7 +101,7 @@ git push -u origin main
 
 ## Documentation
 
-- [Documentation](https://denisecase.github.io/pup-core/)
+- [Documentation](https://pup-pack.github.io/pup-core/)
 
 ## Annotations
 

@@ -20,7 +20,7 @@ def test_inspect_git_collects_repository_facts(
                 "config",
                 "--get",
                 "remote.origin.url",
-            ): "https://github.com/denisecase/example.git",
+            ): "https://github.com/pup-pack/example.git",
             ("ls-files",): "README.md\nsrc/example/__init__.py",
             ("ls-files", "--others", "--exclude-standard"): "notes.txt",
             (
@@ -38,8 +38,8 @@ def test_inspect_git_collects_repository_facts(
 
     info = git_module.inspect_git(tmp_path)
 
-    assert info.origin_url == "https://github.com/denisecase/example.git"
-    assert info.github_owner == "denisecase"
+    assert info.origin_url == "https://github.com/pup-pack/example.git"
+    assert info.github_owner == "pup-pack"
     assert info.github_repo == "example"
     assert info.tracked_files == frozenset({"README.md", "src/example/__init__.py"})
     assert info.untracked_files == frozenset({"notes.txt"})

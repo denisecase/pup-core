@@ -63,11 +63,11 @@ docs = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/denisecase/pup-core"
-Repository = "https://github.com/denisecase/pup-core"
-Documentation = "https://denisecase.github.io/pup-core/"
-Issues = "https://github.com/denisecase/pup-core/issues"
-Changelog = "https://github.com/denisecase/pup-core/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/pup-pack/pup-core"
+Repository = "https://github.com/pup-pack/pup-core"
+Documentation = "https://pup-pack.github.io/pup-core/"
+Issues = "https://github.com/pup-pack/pup-core/issues"
+Changelog = "https://github.com/pup-pack/pup-core/blob/main/CHANGELOG.md"
 
 # ============================================================
 # SECTION 2: TOOL CONFIGURATION
@@ -229,7 +229,7 @@ packages = ["src/pup_core"]
 
 [tool.hatch.version]
 # Used when no git tags are present. Keep in sync with CITATION.cff.
-fallback-version = "0.1.0"
+fallback-version = "0.1.1"
 # WHY: Version is derived from git tags at build time.
 source = "vcs"
 # WHY: Allow hatch-vcs to find the Git root from isolated build contexts.
