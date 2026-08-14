@@ -76,7 +76,7 @@ code .
 uv self update
 uv python pin 3.15
 uv lock --upgrade
-uv sync --upgrade
+uv sync
 
 uv run pre-commit install
 uv run pre-commit autoupdate
@@ -87,7 +87,7 @@ uv run pre-commit run --all-files
 uv run pre-commit run --all-files
 
 # types, tests, docs
-uv run python -m pyright
+uv run ty check
 uv run python -m pytest
 uv run python -m zensical build
 
