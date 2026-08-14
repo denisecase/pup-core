@@ -53,7 +53,7 @@ jobs:
       - name: A4) Display versions
         run: |
           uv --version
-          uv run python --show-version
+          uv run python --version
 
       # === BASELINE CHECKS (build while git is pristine) ===
 
