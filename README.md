@@ -75,6 +75,7 @@ code .
 ```shell
 uv self update
 uv python pin 3.15
+uv python install
 uv lock --upgrade
 uv sync
 

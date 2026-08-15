@@ -90,7 +90,7 @@ Follow these steps when creating a new release.
 
 ```shell
 uv lock --upgrade
-uv sync --upgrade
+uv sync
 uv run pre-commit install
 
 git add -A
