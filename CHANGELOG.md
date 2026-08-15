@@ -80,7 +80,7 @@ and this project adheres to **[Semantic Versioning](https://semver.org/spec/v2.0
 
 Follow these steps when creating a new release.
 
-### Task 1. Update release metadata
+### Task 1. Update release metadata (manual edits)
 
 1. Update `CITATION.cff`: change `version` and `date-released`
 2. Update `CHANGELOG.md`: move from unreleased, add entry, update links
@@ -89,8 +89,15 @@ Follow these steps when creating a new release.
 ### Task 2. Validate
 
 ```shell
+uvx pup-clean@latest --delete
+uvx pup-up@latest --write
+.\sit.ps1
+
+# OR
+
 uv lock --upgrade
 uv sync
+
 uv run pre-commit install
 
 git add -A
@@ -98,8 +105,11 @@ uv run pre-commit run --all-files
 # rerun if changes made
 uv run pre-commit run --all-files
 
-uv run python -m pytest
+npx markdownlint-cli2 --fix
+uvx cffconvert --validate
+
 uv run ty check
+uv run python -m pytest
 uv run python -m zensical build
 
 uv run python -c "import shutil; from pathlib import Path; shutil.rmtree(Path('dist'), ignore_errors=True)"
